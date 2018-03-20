@@ -1,0 +1,12 @@
+---
+title: "Project 1"
+output: html_notebook
+---
+
+```{r}
+periodicTable <- read.csv("periodic_table.csv")
+periodicTable
+narrowPT <- select(periodicTable, number, symbol, name)
+narrowPT
+
+```
